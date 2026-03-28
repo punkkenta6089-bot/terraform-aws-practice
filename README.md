@@ -1,29 +1,23 @@
-# 📘 Terraform AWS構築ポートフォリオ
+📘 Terraform AWS構築ポートフォリオ
+📌 概要
 
-## 📌 概要
 Terraformを使用して、AWS上に基本的なインフラ構成を構築しました。
 
 本ポートフォリオでは、以下の構成をコードで作成し、Terraformによるインフラ管理（IaC）の基礎理解を目的としています。
 
-- VPC
-- Public Subnet
-- Internet Gateway
-- Route Table
-- Security Group
-- EC2
-
----
-
-## 🏗️ 構成
-
-```text
+VPC
+Public Subnet
+Internet Gateway
+Route Table
+Security Group
+EC2
+🏗️ 構成
 VPC
 └─ Public Subnet
    ├─ Internet Gateway
    ├─ Route Table
    ├─ Security Group
    └─ EC2
-
 🚀 実施内容
 TerraformでAWS環境を構築
 terraform plan による差分確認
@@ -74,3 +68,4 @@ EC2
 
 AWS学習の一環として作成したポートフォリオです。
 今後も継続的に改善し、構築できる範囲を広げていきます。
+
